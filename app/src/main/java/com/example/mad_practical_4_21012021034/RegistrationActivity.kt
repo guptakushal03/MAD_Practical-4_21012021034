@@ -12,7 +12,7 @@ class RegistrationActivity : AppCompatActivity() {
 
         val Signupbutton = findViewById<Button>(R.id.Signup)
         Signupbutton.setOnClickListener(){
-            Intent(this@RegistrationActivity, MainActivity::class.java).also { startActivity(it) }
+            Intent(this@RegistrationActivity, LoginActivity::class.java).also { startActivity(it) }
         }
 
     }
